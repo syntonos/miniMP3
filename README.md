@@ -16,21 +16,25 @@ Solder on:
 - the power switch (toggle switch)
 - the rotary switches
 
+Plug in the LiPo Battery (JST-PH 2.0mm).
+
 Insert the heat-sets into the two slots above and below. 
+
 ![image](./Assets/apart_top.png)
 ![image](./Assets/apart_bottom.png)
 
 Fasten in the M2 screw on the bottom. 
+
 ![image](./Assets/cad_bottom.png)
 
 ## PCB
-### Layer 1
+### Layer 1 - Signal
 ![image](./Assets/pcb_layer1.png)
-### Layer 2
+### Layer 2 - GND
 ![image](./Assets/pcb_layer2.png)
-### Layer 3
+### Layer 3 - Power
 ![image](./Assets/pcb_layer3.png)
-### Layer 4
+### Layer 4 - Signal
 ![image](./Assets/pcb_layer4.png)
 ### 3D Model Front
 ![image](./Assets/3d_front.png)
@@ -51,3 +55,6 @@ Fasten in the M2 screw on the bottom.
 - 1x PJ320-D Jack
 - 1x 4mmx4mm Push Switch
 - 1x Sliding Power Switch
+- 2x M2 Heatset 3.5D 4.5H
+- 2x M2 Heatset 3.5D 18H
+- 2x M2 Screw 20H 
