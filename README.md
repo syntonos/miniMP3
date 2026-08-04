@@ -11,21 +11,37 @@ I wanted a little mp3 player that was small enough that I could just toss into m
 ## Assembly
 Solder on:
 - the display module
+    - Make sure the alignment is correct! Orient the screen upwards and covering the "blank" side of the PCB. Check the pins to make sure they match. Solder in the pins. Clip off the excess length.
+    ![image](./Assets/3d_front.png)
 - the SD card module
+    - Orient the slot facing outwards. Make sure the pins match on the module and the PCB. Make sure the length of the header pin is appropriate (5mm). Solder in the pins. Clip off the excess length. 
+    ![image](./Assets/3d_back.png)
+    (throughhole slots below where the module is pictured)
 - the boot switch (4x4 push switch)
+    - Surface mount on the back. Make sure the orientation is correct (longer side matches the longer side, the shorter side matches the shorter side), then use solder paste and carefully place.
+    ![image](./Assets/3d_back.png)
+    (exposed solder pads next to the ESP32-WROOM-32)
 - the power switch (toggle switch)
+    - Orient so that the pins align (no specific direction), then solder in the throughhole pins.
+    ![image](./Assets/3d_front.png)
+    (bottom right corner)
 - the rotary switches
+    - Next to the OLED display module on the same side. Use solder paste to adhere the switches through a surface mount.
+    ![image](./Assets/3d_front.png)
+    (right side, two switches)
 
 Plug in the LiPo Battery (JST-PH 2.0mm).
 
 Insert the heat-sets into the two slots above and below. 
-
 ![image](./Assets/apart_top.png)
 ![image](./Assets/apart_bottom.png)
 
 Fasten in the M2 screw on the bottom. 
-
 ![image](./Assets/cad_bottom.png)
+
+## Firmware
+
+Flash firmware through USB-C, and a platform like Arduino IDE. Hold the boot button, flick the power switch on and off, select the right USB connection, and upload the firmware.
 
 ## PCB
 ### Layer 1 - Signal
