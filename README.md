@@ -71,6 +71,7 @@ Flash firmware through USB-C, and a platform like Arduino IDE. Hold the boot but
 - 1x PJ320-D Jack
 - 1x 4mmx4mm Push Switch
 - 1x Sliding Power Switch
+- 2x Rotary Switch XUNPU
 - 2x M2 Heatset 3.5D 4.5H
 - 2x M2 Heatset 3.5D 18H
 - 2x M2 Screw 20H 
