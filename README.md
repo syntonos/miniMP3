@@ -3,10 +3,9 @@
 ![image](./Assets/cad.png)
 
 ## About
-A compact music player. 59.3 x 32 x 27 (mm). Bluetooth and 3.5mm jack compatible. mp3, wav, and flac compatible. 5-band EQ, and more functions when the firmware updates. 
+A compact music player. 59.3 x 32 x 27 (mm), or around 2 x 1 x 1 inches, around half the size of an earpod case. Bluetooth and 3.5mm jack compatible. mp3, wav, and flac compatible. 5-band EQ, and more functions when the firmware updates. 
 
-## Idea
-I wanted a little mp3 player that was small enough that I could just toss into my shirt pocket or keep it on a necklace. I don't want to be tied so much to my phone, and this seems like a reasonable first step to move a function off. There are also a couple old cds and etc. that I'd like to download.
+Really more of a fun PCB tiling exercise than anything. 
 
 ## Assembly
 Solder on:
@@ -42,6 +41,8 @@ Fasten in the M2 screw on the bottom.
 ## Firmware
 
 Flash firmware through USB-C, and a platform like Arduino IDE. Hold the boot button, flick the power switch on and off, select the right USB connection, and upload the firmware.
+
+(Firmware currently in testing, will be in release notes when fully finished.)
 
 ## PCB
 ### Layer 1 - Signal
